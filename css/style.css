@@ -340,11 +340,18 @@ h6 {
 
 .hero {
   background: url("../img/hero/hero-bg.png") center/cover no-repeat;
-  margin-top: 61px;
+  margin-top: 120px;
 }
 @media (max-width: 1200px) {
   .hero {
-    background: url("../img/hero/hero-bg.png") top/auto 100% auto no-repeat;
+    background: url("../img/hero/hero-bg.png") 0 0/100% 100% no-repeat;
+    margin-top: 75px;
+  }
+}
+@media (max-width: 655px) {
+  .hero {
+    background: url("../img/hero/hero-bg.png") 0 0/100% 100% no-repeat;
+    margin-top: 55px;
   }
 }
 .hero__slogan, .hero__description {
@@ -352,7 +359,7 @@ h6 {
   font-weight: 300;
 }
 .hero__slogan {
-  padding: 155px 0 30px 0;
+  padding: 85px 0 45px 0;
   color: #DDB2B2;
 }
 @media (max-width: 1200px) {
